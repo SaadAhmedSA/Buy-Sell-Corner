@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Sell Corner</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar bg-primary text-white">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">Buy & Sell Corner</a>
+      </div>
+      
+        <div class="dropdown dropdown-end " id="useravater">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar text-black">
+            <div class="w-10 rounded-full">
+              <img
+              id="userimge"
+                alt="Tailwind CSS Navbar component"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-primary  rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            
+            <li><a>Settings</a></li>
+            <li><a id="logout">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+
+<script type="module" src="Script/config.js"></script>
+<script type="module" src="./Script/app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
