@@ -34,7 +34,7 @@ form.addEventListener("submit", async (event)=>{
     } catch (e) {
       console.error("Error adding document: ", e);
     }
-    // window.location.href="login.html"
+    window.location.href="login.html"
     
   })
   .catch((error) => {
