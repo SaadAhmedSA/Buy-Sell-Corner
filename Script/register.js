@@ -31,15 +31,16 @@ form.addEventListener("submit", async (event)=>{
     
       });
       console.log("Document written with ID: ", docRef.id);
+      Swal.fire("Account Created Successfully!");
     } catch (e) {
-      console.error("Error adding document: ", e);
+    alert("Error adding document: ", e);
     }
     window.location.href="login.html"
     
   })
   .catch((error) => {
     const errorMessage = error.message;
-    console.log(errorMessage);
+alert(errorMessage);
 
   });
 
@@ -54,7 +55,7 @@ async function showurl(file) {
         return url
         
     }catch{ (error)
-        console.log(error);
+        alert(error);
         
     }
 }

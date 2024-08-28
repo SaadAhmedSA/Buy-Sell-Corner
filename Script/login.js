@@ -12,7 +12,7 @@ form.addEventListener("submit",(event)=>{
     .then((userCredential) => {
       
       const user = userCredential.user;
-      console.log(user);
+      Swal.fire("Sign-in Successfully!");
       window.location.href="/index.html"
       
     })

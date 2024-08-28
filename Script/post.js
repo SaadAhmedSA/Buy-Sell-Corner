@@ -37,6 +37,7 @@ form.addEventListener("submit",async (event)=>{
       });
       btn.innerText="POST NOW"
       console.log("Document written with ID: ", docRef.id);
+      Swal.fire("Ad post Successfully!");
     } catch (e) {
       console.error("Error adding document: ", e);
     }
